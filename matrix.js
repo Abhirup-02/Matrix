@@ -85,7 +85,7 @@ class FallingChar{
     }
     draw(ctx){
         this.value=charArr[Math.floor(Math.random()*(charArr.length-1))]
-        this.speed=(Math.random()*fontSize*3)/4+(fontSize*3)/4
+        this.speed=(Math.random()*fontSize*2)/4+(fontSize*2)/4
 
         ctx.fillStyle = 'rgba(0,255,0)'
         ctx.font = fontSize + "px san-serif"
